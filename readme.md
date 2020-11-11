@@ -1,0 +1,3 @@
+select * from ADM_AUTHENTICATION;
+select * from ADM_GLB_USER ;
+select * from ADM_USER_GRP_ASSOC where GLB_USER_ID=2 and (INACTIVE_DT IS NULL OR INACTIVE_DT >'2020-10-30 12:16:34.05');
